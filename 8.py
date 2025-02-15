@@ -79,8 +79,8 @@ def sort_by_final_total(processed_data):
 
 # Main function
 def main():
-    input_file = '.sales.json'  # Path to the input JSON file
-    output_file = '/orders.csv'  # Path to the output CSV file
+    input_file = './sales.json'  # Path to the input JSON file
+    output_file = './orders.csv'  # Path to the output CSV file
 
     # Process the data and generate the list
     processed_data = process_order_data(input_file)
